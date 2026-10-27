@@ -1,0 +1,69 @@
+{
+  "title": "Retail Intelligence Lab \u2014 Consolidated Data Warehouse & Mining Report",
+  "course": "DTU SE425 \u2014 Data Warehouse and Data Mining",
+  "generated_at": "2026-10-26 18:19:54 UTC",
+  "executive_summary": {
+    "platform": "Retail Intelligence Lab",
+    "pipeline_status": "completed",
+    "completed_stages": 18,
+    "total_stages": 18
+  },
+  "sections": {
+    "1_project_overview": "End-to-End DWDM analytics pipeline built on real online retail transactions covering CSV ingestion, ETL, Star/Snowflake schemas, OLAP, Apriori/FP-Growth, Decision Tree/Naive Bayes/kNN, RFM K-Means/DBSCAN, Time-Series forecasting, Text Mining, Spatial, and Multimedia mining.",
+    "2_dataset_profile": {
+      "rows": 541909
+    },
+    "3_preprocessing_decisions": {},
+    "4_warehouse_schema": {},
+    "5_etl_reconciliation": {},
+    "6_olap_results": {},
+    "7_association_rules": {},
+    "8_classification_comparison": {},
+    "9_clustering_profiles": {},
+    "10_timeseries_forecast": {},
+    "11_sequence_mining": {},
+    "12_text_mining": {},
+    "13_spatial_analysis": {},
+    "14_multimedia_analysis": {},
+    "15_unit_6_coverage_matrix": [
+      {
+        "unit": "6A",
+        "topic": "Multidimensional Analysis",
+        "status": "Implemented & Verified",
+        "method": "Relational Star/Snowflake OLAP"
+      },
+      {
+        "unit": "6B",
+        "topic": "Spatial Database Mining",
+        "status": "Implemented & Verified",
+        "method": "Haversine Distance + Spatial DBSCAN"
+      },
+      {
+        "unit": "6C",
+        "topic": "Multimedia Database Mining",
+        "status": "Implemented & Verified",
+        "method": "MD5 Exact + pHash/dHash Perceptual Duplicates"
+      },
+      {
+        "unit": "6D",
+        "topic": "Time-Series & Sequence Mining",
+        "status": "Implemented & Verified",
+        "method": "Weekly Resampling, Naive/MA/Trend Forecast + Sequential Item Transitions"
+      },
+      {
+        "unit": "6E",
+        "topic": "Text Database Mining",
+        "status": "Implemented & Verified",
+        "method": "TF-IDF + Cosine Search + Description Clustering"
+      },
+      {
+        "unit": "6F",
+        "topic": "Applications and Trends",
+        "status": "Implemented & Verified",
+        "method": "Retail Domain Synthesis & Educational Trends Analysis"
+      }
+    ],
+    "16_conclusions": "Real transactional retail data demonstrates strong customer clustering by monetary frequency, distinct product associations among homeware gift items, and clear seasonal trends. Pruned decision trees effectively predict repeat purchase while preventing target leakage.",
+    "17_limitations": "The dataset lacks natural GPS coordinates (handled safely via explicit spatial coordinate upload), has unrecorded guest checkout demographics, and exhibits significant positive skew in transaction quantities."
+  }
+}

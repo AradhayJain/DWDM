@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "raw_extracted_rows": 541909,
+  "total_rejected_rows": 19341,
+  "loaded_fact_rows": 522568,
+  "loaded_customers": 4335,
+  "loaded_products": 3803,
+  "loaded_dates": 305,
+  "total_revenue": 10247905.13,
+  "cleaning_funnel": [
+    {
+      "step": "Extracted",
+      "records_remaining": 541909
+    },
+    {
+      "step": "duplicate records",
+      "records_remaining": 536641
+    },
+    {
+      "step": "cancelled invoices (returns)",
+      "records_remaining": 527390
+    },
+    {
+      "step": "non-positive quantity or price",
+      "records_remaining": 524878
+    },
+    {
+      "step": "non-merchandise codes (postage/fees)",
+      "records_remaining": 522568
+    }
+  ],
+  "reconciliation_check": true
+}

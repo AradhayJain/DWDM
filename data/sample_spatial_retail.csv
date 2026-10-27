@@ -1,0 +1,17 @@
+store_id,store_name,city,country,latitude,longitude,region,store_type
+ST-101,London Central Flagship,London,United Kingdom,51.5074,-0.1278,UK,Flagship
+ST-102,London West End,London,United Kingdom,51.5138,-0.1588,UK,Boutique
+ST-103,London Canary Wharf,London,United Kingdom,51.5054,-0.0235,UK,Retail Express
+ST-104,Birmingham Bullring,Birmingham,United Kingdom,52.4774,-1.8944,UK,Standard
+ST-105,Manchester Arndale,Manchester,United Kingdom,53.4831,-2.2426,UK,Standard
+ST-106,Edinburgh Princes St,Edinburgh,United Kingdom,55.952,-3.1979,UK,Flagship
+ST-107,Glasgow Buchanan,Glasgow,United Kingdom,55.8617,-4.2583,UK,Standard
+ST-108,Paris Champs-Elysees,Paris,France,48.8698,2.3075,Europe,Flagship
+ST-109,Paris Marais,Paris,France,48.8575,2.359,Europe,Boutique
+ST-110,Frankfurt Zeil,Frankfurt,Germany,50.1147,8.6865,Europe,Standard
+ST-111,Berlin Alexanderplatz,Berlin,Germany,52.5219,13.4132,Europe,Flagship
+ST-112,Munich Marienplatz,Munich,Germany,48.1374,11.5755,Europe,Standard
+ST-113,Amsterdam Kalverstraat,Amsterdam,Netherlands,52.369,4.8912,Europe,Standard
+ST-114,Dublin Grafton St,Dublin,EIRE,53.3421,-6.2597,Europe,Flagship
+ST-115,Madrid Gran Via,Madrid,Spain,40.4203,-3.7058,Europe,Flagship
+ST-116,Barcelona Passeig de Gracia,Barcelona,Spain,41.3916,2.1649,Europe,Flagship
